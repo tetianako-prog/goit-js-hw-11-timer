@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.timer {
+  display: flex;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 390px;
+  background-color: #ccc;
+  border-radius: 6px;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.value {
+  font-size: 40px;
+}
+.label {
+  font-size: 26px;
+}
