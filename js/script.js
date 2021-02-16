@@ -4,7 +4,6 @@ class CountdownTimer {
     this.isActive = false;
     this.timerRef = document.querySelector(selector);
     this.targetDate = targetDate;
-    this.init();
   }
 
   init() {
@@ -62,3 +61,5 @@ const timer = new CountdownTimer({
   selector: '#timer-1',
   targetDate: new Date('Feb 27, 2021'),
 });
+
+timer.init();
